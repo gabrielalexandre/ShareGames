@@ -1,0 +1,470 @@
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Bree Serif', serif;
+	background-color: white;
+}
+header .img-perfil{
+	padding: 0px;
+	margin-top: 2px;
+	width: 40px;
+	border-radius: 100%;
+	box-shadow: 0px 0px 5px 1px;
+}	
+header ul{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	background-color: white;
+	padding: 1px;
+	background-image: url("../../public/logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 10%;
+	background-size: 8%;
+	box-shadow: 0px 0px 5px 1px grey;
+}
+
+header nav{
+	margin-right: 8%;
+	text-align: right;
+	font-size: 20px;
+}
+
+header nav ul {
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+	list-style: none;
+	display: inline-flex;
+	vertical-align: 40%;
+}
+
+header nav ul li {
+	position: relative;
+}
+
+header nav li ul {
+	position: fixed;
+	text-align: left;
+	display: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: rgb(0, 77, 192);
+	margin: 10px;
+}
+
+header nav .sub-menu li a{
+	margin-left: 0;
+	margin-right: 40px;
+	text-align: left;
+}
+
+header nav ul li a:hover{
+	color: red;
+}
+
+header nav .sub-menu li{
+	box-shadow: 0px 0px 2px 0px;
+	background-color: white;
+	margin-left: 10px;
+	text-align: left;
+}
+
+header nav li:hover ul { display: block; }
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+.retorno{
+	text-decoration: none;
+	color: white;
+	margin: 15px;
+	padding: 2px;
+	background-color: red;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 1px grey;
+}
+
+article .menu-principal{
+	font-family: 'Bree Serif', serif;
+	background-color: transparent;
+	border: none;
+	font-size: 30px;
+	color: rgb(0, 77, 192);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+article .menu-principal:hover{
+	color: red;
+	margin: 0
+}
+article .menu-principal:focus{
+	color: red;
+	outline-style: none;
+}
+
+article{
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article .opcao-2{
+	padding: 0;
+	display: none;
+	align-content: center;
+	text-align: center;
+}
+
+article .btn-cadastro{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	cursor: pointer;
+	border: none;
+	font-family: 'Bree Serif', serif;
+	font-size: 90%;
+	padding: 6px;
+	outline: none;
+	align-items: center;
+	text-align: center;
+	border-radius: 6px;
+	margin: 5px;
+	box-shadow: 0px 0px 2px 1px grey;
+}
+
+article  .btn-cadastro:hover{
+	background-color: grey;
+}
+
+article  .btn-cadastro:focus{
+	background-color: grey;
+}
+
+article .opcao-2 .btn-ocultar{
+	background-color: transparent;
+	font-size: 100%;
+	color: rgb(0, 77, 192);
+	outline-style: none;
+	cursor: pointer;
+	border:none;
+	font-family: 'Bree Serif', serif;
+	margin-bottom: 2%;
+}
+
+article .opcao-2 .btn-ocultar:hover{
+	color: red;
+}
+
+article .opcao-2 .btn-ocultar:focus{
+	color: red;
+}
+
+.cadastrar-jogo{
+	display: none;
+	background-color: transparent;
+}
+
+label{
+	font-size: 18px;
+	margin-top: 0;
+}
+
+input{
+	font-family: 'Bree Serif', serif;
+	font-size: 90%;
+	padding: 6px;
+	outline: none;
+	align-items: left;
+	text-align: left;
+	border-radius: 6px;
+	border: 1px solid  rgb(0, 77, 192);
+	width: 275px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 2px 1px grey;
+	margin-top: 0;
+}
+
+select{
+	font-family: 'Bree Serif', serif;
+	font-size: 90%;
+	padding: 6px;
+	outline: none;
+	align-items: left;
+	text-align: left;
+	border-radius: 6px;
+	border: 1px solid  rgb(0, 77, 192);
+	width: 291px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 2px 1px grey;
+	margin-top: 0;
+}
+
+option{
+	text-align: center;
+	align-items: center;
+}
+
+.capa-jogo{
+	font-size: 80%;
+}
+
+input:focus{
+	border: 1px solid  rgb(0, 77, 192);
+}
+
+input:valid{
+	border: 1px solid rgb(0, 255, 13);
+}
+
+input[type = checkbox]{
+	width: 20px;
+}
+
+input[type = submit]{
+	background-color:  red;
+	color: white;
+	cursor: pointer;
+	outline-style: none;
+	cursor: pointer;
+	border:none;
+	font-family: 'Bree Serif', serif;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+input[type = submit]:hover{
+	background-color:  grey;
+}
+
+input[type = submit]:valid{
+	border: none;
+}
+
+article .opcao-3{
+	padding: 0;
+	display: none;
+}
+
+article .opcao-4{
+	padding: 0;
+	display: none;
+}
+
+
+article ul{
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+}
+
+article figure{
+	display: inline-flex;
+	text-align: left;
+	font-style: italic;
+	font-size: 90%;
+	text-indent: 0;
+	border: none;
+	background-color: rgb(0, 77, 192);
+	box-shadow: 2px 2px 8px 1px;
+	border-radius: 5%;
+	padding: 0;
+	margin-right: 15px;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 1.5%;
+}
+
+article figcaption{
+	margin-left: 5px;
+	padding: 0;
+	float: right;
+	width: 110px;
+	color: white;
+}
+
+article .img-capa{
+	width: 150px;
+	height: 215px;
+	margin:0;
+	padding: 0;
+	box-shadow: 0px 0px 2px 2px;
+	border-radius: 2px;
+}
+
+article .item-loja{
+	background-color: white;
+	box-shadow: 0px 0px 5px 1px grey;
+	padding: 0;
+	margin: 10px;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	list-style-type: none;
+}
+
+article h2{
+	text-align: center;
+	color: rgb(0, 77, 192);
+	margin-top: 0;
+}
+
+article h3{
+	padding: 0;
+	margin: 0;
+	font-size: 110%;
+	text-align: center;
+	color: white;
+}
+
+article p{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+article figcaption button{
+	color: white;
+	background: red;
+	margin-top: 30%;
+	margin-left: 25%;
+	font-size: 90%;
+	cursor: pointer;
+	border:none;
+	border-radius: 5%;
+	box-shadow: 0px 0px 2px 1px;
+	font-family: 'Bree Serif', serif;
+}
+
+article .opcao-2 figcaption button{
+	margin-left: 5%;
+	margin-top: 70%;
+}
+
+article figcaption button:hover{
+	background-color: grey;
+	color:white
+}
+
+article figcaption button:focus{
+	outline-style: none;
+	background-color: grey;
+	color:white
+}
+
+footer{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer button{
+	font-family: 'Bree Serif', serif;
+	background-color: transparent;
+	border: none;
+	font-size: 150%;
+	color: rgb(0, 77, 192);
+	text-decoration: none;
+	display: inline;
+	cursor: pointer;
+}
+
+footer button:hover{
+	color: rgb(252, 5, 5);
+}
+footer button:focus{
+	color: red;
+	outline-style: none;
+}
+
+@media only screen and (max-device-width: 1200px) {
+	header{
+		background-position-x: 2px;
+		background-size: 275px;
+	}
+	header nav ul li a{ 
+		font-size: 40px;
+		margin: 5px;
+	}
+
+	span{
+		font-size: 40px;
+	}
+
+	header .img-perfil{
+		padding-top: 5px;
+		width: 90px;
+		margin-right: 2px;
+	}	
+
+	header nav{
+		margin-right: 0;
+	}
+
+	header nav ul {
+		vertical-align: 110%;
+		margin-right: 0;
+	}
+
+	article .menu-principal{
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 40px;
+	}
+
+	article{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	footer button{
+		font-size: 40px;
+	}
+
+	p{
+		font-size: 35px;
+	}
+
+	input{
+		font-size: 50px;
+		width: 600px;
+	}
+
+	select{
+		font-size: 50px;
+		width: 615px;
+		margin-top: 20px;
+	}
+
+	.capa-jogo{
+		font-size: 40px;
+	}
+
+	article .opcao-2 .btn-ocultar{
+		font-size: 40px;
+	}
+
+	article .btn-cadastro{
+		font-size: 40px;
+	}
+	
+	.retorno{
+		font-size: 40px;
+	}
+}

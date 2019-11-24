@@ -1,0 +1,301 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+header ul{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: white;
+    padding: 10px;
+    background-image: url("../../public/logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10%;
+    background-size: 8%;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+header nav{
+    margin-right: 8%;
+    text-align: right;
+    font-size: 20px;
+}
+
+header nav ul {
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+	list-style: none;
+	display: inline-flex;
+	vertical-align: 40%;
+}
+
+header nav ul li {
+	position: relative;
+}
+
+header nav li ul {
+	position: fixed;
+	text-align: left;
+	display: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+    color: rgb(0, 77, 192);
+    margin: 10px;
+}
+
+header nav ul li .cadastre-se{
+	text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 2px;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+header nav .sub-menu li a{
+    margin-left: 0;
+    margin-right: 40px;
+    text-align: left;
+}
+
+header nav ul li a:hover{
+	color: red;
+}
+
+header nav .sub-menu li{
+	box-shadow: 0px 0px 2px 0px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: left;
+}
+
+header nav li:hover ul { 
+    display: block; 
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+article{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    top: 0;
+    bottom: 0;
+}
+article h1 {
+    margin: 0;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 0;
+}
+
+article h2{
+    margin: 0;
+    padding: 0;
+    color:  rgb(0, 89, 223);
+    text-align: left;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+article .anuncio{
+    padding:10px;
+    margin-bottom: 10%;
+}
+
+article .anuncio .example{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 5px;
+    float: right;
+}
+
+article p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login{
+    color: white;
+    background-color: rgb(0, 77, 192);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display : block;
+}
+
+.cadastro{
+    color: white;
+    background-color: rgb(0, 77, 192);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display : none;
+}
+
+.cadastro h2{
+    color: white;
+}
+
+.endereco{
+    display: none;
+}
+
+.joystick{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid  rgb(0, 77, 192);
+    width: 275px;
+}
+
+input:focus{
+    border: 2px solid  rgb(0, 77, 192);;
+}
+
+input:valid{
+    border: 2px solid rgb(0, 255, 13);
+}
+
+input[type = checkbox]{
+    width: 20px;
+}
+
+input[type = submit]{
+    background-color:  red;
+    color: white;
+    cursor: pointer;
+}
+
+input[type = submit]:valid{
+    border: none;
+}
+
+button{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    display: inline;
+    background:transparent;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button:focus{
+    outline-style: none;
+}
+
+footer{
+    text-align: center;
+}
+
+footer button{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 89, 223);
+    text-decoration: none;
+    display: inline;
+}
+
+footer button:hover{
+    color: red;
+}
+
+@media only screen and (max-device-width: 1200px) {
+	header{
+		background-position-x: 2px;
+        background-size: 100px;
+    }
+    header nav ul li a{ 
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+  }	
+
+  header nav{
+    padding: 0;
+    margin-right: 0;
+}
+
+header nav ul {
+  vertical-align: 110%;
+  margin-right: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li .cadastre-se{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+article h2{
+    font-size: 20px;
+}
+.example{
+    float: none;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+article .anuncio{
+    margin-bottom: 1%;
+}
+
+article h2{
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+}
+
+article .anuncio .example{
+    width: 70%;
+    float: none;
+}
+
+
+
+}

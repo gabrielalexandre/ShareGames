@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seu Perfil</title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="usuarioPerfil.css">
+	<script type="text/javascript" src="usuarioPerfil.js"></script>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul> 
+				<li><a href="#">Nome do Usuário</a></li>
+				<li><a href="#"></a></li> 
+				<li><a href="#">Configurações</a> 
+					<ul class ="sub-menu"> 
+						<li><a href="#">Ajuda</a></li> 
+						<li><a href="login.php">Sair</a></li>  
+					</ul> 
+				</li> 
+			</ul>
+			<img class="img-perfil" src="../../public/userpadrao.jpg" alt="foto do perfil">
+		</nav>
+	</header>
+	
+	<article>
+		<a href="usuarioInicio.html" class="retorno">Voltar</a>
+		<br>
+		<button class="menu-principal" onclick="mudarCorButtonsMenu('menu-principal',0); exibirMenuPrincipal('opcao-1', 'opcao-2')" style="color: red">Sobre Você</button></ul>
+		<button class="menu-principal" onclick="mudarCorButtonsMenu('menu-principal',1); exibirMenuPrincipal('opcao-2','opcao-1')">Seu Endereço</button></ul>
+
+		<div class = "opcao-1"> 
+			<button onclick="mudarEstadoAndOcultBtn('perfil-sobre', 'btn-editar');" class="btn-cadastro">Editar</button>
+			<p>
+				Nome: Fulano<br>
+				Sobrenome: De Tal<br>
+				Data de Nascimento: 01/01/0001<br>
+				CPF: 000.000.000-00<br>
+				Email: fulano@email.com<br>
+				Senha: *********<br>
+			</p>
+		</div>
+
+		<div class = "opcao-2"> 
+			<button onclick="mudarEstadoAndOcultBtn('perfil-sobre', 'btn-editar');" class="btn-cadastro">Editar</button>
+			<p>
+				CEP: 79000-000<br>
+				País: Brasil<br>
+				Cidade: Campo Grande<br>
+				Estado: Mato Grosso Do Sul<br>
+				Bairro: Cidade Universitária<br>
+				Rua: UFMS<br>
+				Número: 400<br>
+				Complemento: Próximo a FACOM
+			</p>
+		</div>
+
+	</article>
+
+
+	<footer>
+		<button>Sobre</button>
+		<button>Quem somos</button>
+		<button>Contato</button>
+		<p>Criado e Desenvolvido por Hackers<br>Copyright<br>2019<p>
+		</footer>
+
+		<script type="text/javascript">
+
+
+		</script>
+
+	</body>
+	</html>
